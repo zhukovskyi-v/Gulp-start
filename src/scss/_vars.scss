@@ -1,0 +1,6 @@
+$maxDisplayWidth: 1280;
+@mixin responsiveFont($maxSize, $minSize) {
+  $addSize: $maxSize - $minSize;
+  $maxWidth: $maxDisplayWidth - 320;
+  font-size: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxDisplayWidth}));
+}
