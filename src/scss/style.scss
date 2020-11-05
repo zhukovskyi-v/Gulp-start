@@ -1,2 +1,19 @@
+@import "node_modules/reset-css/sass/reset";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "../../node_modules/swiper/swiper-bundle.css";
+@import '../../node_modules/swiper/swiper.scss';
+@import "../../node_modules/font-awesome-sass/assets/stylesheets/font-awesome-sprockets";
+@import "../../node_modules/font-awesome-sass/assets/stylesheets/font-awesome";
 @import "vars";
 @import "fonts";
+
+@import "components/header";
+@import "components/inner";
+@import "components/about";
+@import "components/classes";
+@import "components/training";
+@import "components/tasting";
+@import "components/clients";
+@import "components/footer";
+@import "components/wine-popup";
+@import "components/media";

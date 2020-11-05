@@ -1,0 +1,71 @@
+.tasting {
+  padding: 70px 0;
+  background-color: #22191a;
+
+  &__description {
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    color: #ffffff;
+    margin-bottom: 53px;
+  }
+
+  &__content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  &__item-image {
+    position: relative;
+    max-height: 350px;
+    &:hover .tasting__item-hover{
+      display: block;
+    }
+  }
+
+  &__item {
+    margin-bottom: 58px;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__item-hover {
+    display: none;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(25, 25, 25, 0.5)
+  }
+
+  &__item-btn {
+    background-color: #ff1a2c;
+    position: absolute;
+    z-index: 222222222222;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__item-title {
+    color: #ffffff;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 16px;
+  }
+
+
+}

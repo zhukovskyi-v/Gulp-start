@@ -38,7 +38,7 @@ const svgSprites = () => {
 }
 
 const styles = () => {
-	return src('./src/scss/**/*.scss')
+	return src('./src/scss/style.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sass({
 			outputStyle: 'expanded'
@@ -68,7 +68,7 @@ const htmlInclude = () => {
 }
 
 const imgToApp = () => {
-	return src(['./src/img/**.jpg', './src/img/**.png', './src/img/**.jpeg'])
+	return src(['./src/img/**.jpg', './src/img/**.png', './src/img/**.jpeg', './src/img/**.svg'])
 		.pipe(dest('./app/img/'))
 }
 

@@ -1,0 +1,48 @@
+.wine__popup {
+  background: rgba(0, 0, 0, .7);
+  cursor: pointer;
+  display:none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width: 100%;
+  z-index: 10000;
+
+  &-wrap {
+    position: relative;
+    top: 3%;
+    padding: 3%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  &-title {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 39px;
+  }
+
+  &-txt {
+    color: #22191a;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 40px;
+
+  }
+}
+
+
+.wine__close-popup {
+  position: absolute;
+  font-size: 20px;
+  top: 15px;
+  right: 25px;
+  padding: 5px;
+}

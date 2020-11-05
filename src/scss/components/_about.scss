@@ -1,0 +1,22 @@
+.about {
+  padding: 70px 0;
+  &__description {
+
+    margin: 0 auto 14px ;
+  }
+  &__title{
+    margin-bottom: 50px;
+  }
+  &__txt{
+    color: #22191a;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+  &__image-item{
+    max-width: 45%;
+  }
+}

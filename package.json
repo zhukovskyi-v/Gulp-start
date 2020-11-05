@@ -8,7 +8,14 @@
   },
   "author": "V. Zhukovskyi",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "font-awesome-sass": "^4.7.0",
+    "jquery": "^3.5.1",
+    "reset": "^0.1.0",
+    "reset-css": "^5.0.1",
+    "swiper": "^6.3.5"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",

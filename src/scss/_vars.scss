@@ -4,3 +4,55 @@ $maxDisplayWidth: 1280;
   $maxWidth: $maxDisplayWidth - 320;
   font-size: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxDisplayWidth}));
 }
+
+button {
+  display: block;
+  background: transparent;
+  border: none;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  background-color: #ff1a2c;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  transition: background-color .4s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #191919;
+  }
+}
+
+.title {
+  color: #333333;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.description {
+  color: #ff1a2c;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 auto;
+}
